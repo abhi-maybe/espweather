@@ -5,8 +5,8 @@
 
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
-const char* ssid     = "SSID";
-const char* password = "PASSWORD";
+const char* ssid     = "Airtel_Black";
+const char* password = "12345678";
 String APIKEY = "API-OF-OPENWEATHERMAP";
 String CityID = "111111";
 
@@ -17,7 +17,7 @@ String result;
 int counter = 30;
 
 String weatherDescription = "";
-String weatherLocation = "443201, IN";
+String weatherLocation = "";
 String Country;
 float Temperature;
 float Humidity;
